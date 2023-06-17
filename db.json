@@ -1,9 +1,67 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@doe.com",
+      "password": "123456"
+    },
+    {
+      "firstName": "Lexi",
+      "lastName": "Loire",
+      "email": "Lexiloire@gmail.com",
+      "password": "mypassword123",
+      "confirmPassword": "mypassword123",
+      "id": 2
+    },
+    {
+      "firstName": "Kent",
+      "lastName": "Clementir",
+      "email": "Kent@gmail.com",
+      "password": "mypassword123",
+      "confirmPassword": "mypassword123",
+      "id": 3
+    },
+    {
+      "firstName": "Austin",
+      "lastName": "Belle",
+      "email": "Austin@gmail.com",
+      "password": "mypassword123",
+      "confirmPassword": "mypassword123",
+      "id": 4
+    },
+    {
+      "firstName": "Tim",
+      "lastName": "Joe",
+      "email": "Tim@gmail.com",
+      "password": "mypassword123",
+      "confirmPassword": "mypassword123",
+      "id": 5
+    },
+    {
+      "firstName": "James",
+      "lastName": "Joe",
+      "email": "James@gmail.com",
+      "password": "mypassword123",
+      "confirmPassword": "mypassword123",
+      "id": 6
+    },
+    {
+      "firstName": "Kristine",
+      "lastName": "Jane",
+      "email": "Kristine@gmail.com",
+      "password": "test123",
+      "confirmPassword": "test123",
+      "id": 7
+    },
+    {
+      "firstName": "Ray",
+      "lastName": "Royce",
+      "email": "Ray@gmail.com",
+      "password": "test123",
+      "confirmPassword": "test123",
+      "id": 8
+    }
+  ]
 }
